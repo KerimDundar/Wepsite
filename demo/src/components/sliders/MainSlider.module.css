@@ -1,0 +1,56 @@
+/* MainSlider.css */
+
+.main-slider {
+    position: relative;
+    height: 500px;
+  }
+  
+  .main-slider .slick-dots {
+    bottom: 20px;
+  }
+  
+  .main-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .main-slider .slick-dots li.slick-active button:before {
+    color: #00aced;
+  }
+  
+  .main-slider .slick-slide {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+  }
+  
+  .main-slider .slick-prev, 
+  .main-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .main-slider .slick-prev {
+    left: 20px;
+  }
+  
+  .main-slider .slick-next {
+    right: 20px;
+  }
+  
+  .main-slider .slick-prev:hover, 
+  .main-slider .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
