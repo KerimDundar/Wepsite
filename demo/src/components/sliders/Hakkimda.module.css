@@ -1,0 +1,38 @@
+/* AboutUs.css */
+
+.about-us {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  .about-us .info-box {
+    width: calc(33.3333% - 20px);
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .about-us .info-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us .info-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
